@@ -38,13 +38,20 @@ body {
 }
 
 .hand {
-    width: 50%;
-    height: 6px;
-    background:black;
+    
+    width: 45%;
+    height: 10px;
+    background:rgb(63, 48, 82);
     position: absolute;
     top:50%;
     transform-origin: 100%;
     transition: all 0.05s;
     transform: rotate(30deg);
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hour-hand {
+    height: 15px;
+}
+.second-hand {
+    height: 5px;
 }
